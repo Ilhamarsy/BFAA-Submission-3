@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Github User</string>
+    <string name="dark_mode">Dark Mode</string>
+
+    <string name="Jumlah">0</string>
+    <string name="following">Following</string>
+    <string name="followers">Followers</string>
+    <string name="image_user">Image User</string>
+    <string name="repository">Repository</string>
+    <string name="container">Container</string>
+    <string name="icon">Icon</string>
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="location">Location</string>
+    <string name="company">Company</string>
+    <string name="share">Share</string>
+
+    <string name="search_hint">Search User</string>
+    <string name="error">Terjadi kesalahan \n Coba kembali</string>
+    <string name="setting_hint">setting</string>
+    <string name="favorite_hint">favorite</string>
+</resources>

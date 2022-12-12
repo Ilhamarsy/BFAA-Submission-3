@@ -1,0 +1,57 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.GithubUser" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_dark</item>
+        <item name="colorPrimaryVariant">@color/p_d_dark</item>
+        <item name="colorOnPrimary">@color/bg_dark</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorSecondaryVariant">@color/white</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" >?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="CardColor">
+        <item name="cardBackgroundColor">@color/card_dark</item>
+    </style>
+
+    <style name="Text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Container">
+        <item name="android:background">@color/primary_dark</item>
+    </style>
+
+    <style name="fab">
+        <item name="backgroundTint">@color/primary_dark</item>
+        <item name="tint">@color/card_dark</item>
+    </style>
+
+    <style name="ViewPager">
+        <item name="tabGravity">fill</item>
+        <item name="tabIndicator">@drawable/tab_indicator</item>
+        <item name="tabIndicatorAnimationMode">elastic</item>
+        <item name="tabIndicatorColor">@color/bg_dark</item>
+        <item name="tabIndicatorGravity">stretch</item>
+        <item name="tabMode">fixed</item>
+        <item name="tabSelectedTextColor">@color/white</item>
+        <item name="tabTextColor">@color/black</item>
+    </style>
+
+    <style name="bgColor">
+        <item name="android:background">@color/bg_dark</item>
+    </style>
+
+
+    <style name="SplashScreenTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryVariant">@color/brown</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+</resources>
